@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mains",
+      "items": [
+        { "id": 1, "name": "Paneer Curry", "price": 12, "veg": true },
+        { "id": 2, "name": "Chicken Masala", "price": 15, "veg": false }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "items": [
+        { "id": 3, "name": "Veg Samosa", "price": 5, "veg": true },
+        { "id": 4, "name": "Spring Rolls", "price": 7, "veg": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ul,li{
+    display: inline;
+}
+li{
+    color: gray;
+}
+.Box{
+    height: 400px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    margin-top: 30px;
+    display: inline-block;
+    
+    
+}
+p{
+    padding: 10px;
+}
+h5{
+    background-color: black;
+    color: gray;
+    width: 70px;
+    padding: 10px;
+    margin-left: 40px;
+    /* margin-bottom: 100px; */
+    margin-top: -2px;
+}
+
+.product{
+    text-align: center;
+}
+
+.Cantact{
+    background-color: black;
+    color: white;
+    /* text-align: center; */  
+}
+
+.Send{
+   
+    border: 2px;
+    border-style: solid;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    margin-left: -2%;
+    
+}

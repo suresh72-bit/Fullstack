@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Live Character Counter</h1>
+
+    <!-- Settings Form -->
+    <form id="settingsForm">
+
+        
+        <h2>Settings</h2>
+
+        <label>
+            Maximum Characters:
+            <input type="number" id="maxChars" min="1" required>
+        </label>
+
+        <label>
+            Warning Limit (%):
+            <input type="number" id="warningPercent" min="1" max="99" required>
+        </label>
+
+        <button type="submit">Apply Settings</button>
+        <p id="settingsError" class="error"></p>
+    </form>
+
+    <!-- Text Area -->
+    <div class="textarea-section hidden" id="textSection">
+        <textarea id="textInput" placeholder="Start typing..."></textarea>
+        <div id="counter">Remaining characters: 0</div>
+    </div>
+</div>
+
+<script src="pro.js"></script>
+</body>
+</html>

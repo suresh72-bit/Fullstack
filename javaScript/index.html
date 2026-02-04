@@ -1,0 +1,146 @@
+<!-- <p id="one">Hai</p>
+
+
+
+
+<script>
+    var para = document.getElementById("one")
+    console.log(para.textContent)
+    para.textContent = "Bye"
+</script>
+
+
+-----------------------------------------------------------------------------------------------------------
+
+<p id="two">suresh</p>
+
+
+
+<script>
+    para = document.getElementById("two")
+    console.log(para.textContent)
+    para.textContent = "krishnan"
+</script> -->
+
+<!-- <h1 id="title">Hello world</h1>
+
+
+<script>
+    h1 = document.getElementById("title")
+    console.log(h1.textContent)
+    h1.textContent = "Bye world"
+</script> -->
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+<!-- <h1 id="one">SURESH</h1>
+
+<button onclick="change()">Change</button>
+
+
+<script>
+    h1 = document.getElementById("one")
+    console.log(h1.textContent)
+
+    function change()
+    {
+        h1.textContent = "KRISHNAN"
+    }
+
+</script> -->
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+<!-- <h1 id="name">Suresh</h1>
+<button onclick="change()">change</button>
+
+<script>
+    h1 = document.getElementById("name")
+    console.log(h1.textContent)
+
+    function change()
+    {
+         h1.textContent = "ramesh"
+    }
+   
+</script> -->
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+<!-- <input id="num1" value="10">
+<input id="num2" value="5">
+<button onclick="suresh()">Add</button>    
+<p id="result">Result</p>
+
+
+
+<script>
+        var Box1 = document.getElementById("num1")
+        var Box2 = document.getElementById("num2")
+
+        var result = document.getElementById("result")
+
+        var Box1value = Number(Box1.value)
+        var Box2value = Number(Box2.value)
+
+        var total = Box1value+Box2value
+
+
+        function suresh()
+        {
+            result.textContent = total
+        }
+
+   
+</script> -->
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+<!-- 
+
+<input id="num1" type="number">
+<input id="num2" type="number">
+<button onclick="suresh()">Add</button>
+<p id="result">Result</p>
+
+<script>
+    Box1 = document.getElementById("num1")
+    Box2 = document.getElementById("num2")
+    result = document.getElementById("result")
+
+    
+
+    function suresh()
+    {
+        Box1value = Number(Box1.value)
+        Box2value = Number(Box2.value)
+        total = Box1value+Box2value
+ 
+        result.textContent=total
+    }
+
+</script> -->
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+<p>Guess the Number</p>
+<input type="number" id="guessnumber">
+<button onclick="check()">check</button>
+<p id="result">you are wrong/right</p>
+<p id="score">score:10</p>
+
+
+<script>
+    guessnumber = document.getElementById("guessnumber")
+    result = document.getElementById("result")
+    score = document.getElementById("score")
+    randomnumber =Math.random(Math.floor()*2) 
+    totalscore = 10
+
+    function check()
+    {
+        enterednumber = randomnumber.value
+        if(randomnumber==enterednumber)
+    {
+        console.log("right")
+        result.textContent="right"
+    }
+    else{
+        totalscore=totalscore-1
+        score.textContent="score"+totalscore
+        console.log("wrong")
+        result.textContent = "wrong"
+        alert("you lose")
+    }
+    }
+</script>
